@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+	background: #ECEFF4;
+}
+
+#wpadminbar{
+	background: #2E3440;
+    color:#E5E9F0;
+    padding:15px 10px;
+    right:0;
+    width:auto;
+    z-index:9998
+}
+
+#adminmenuback, #adminmenuwrap, #adminmenu{
+    background-color:#2E3440;
+	width: 200px;
+}
+
+#adminmenuwrap{
+	padding-top: 30px;
+}
+
+#wp-admin-bar-root-default{
+	display:none;
+}
+
+#wp-admin-bar-my-account{
+	display: flex;
+	justify-content: start;
+	align-content: center;
+}
+
+#wp-admin-bar-my-account .ab-sub-wrapper{
+	top:45px;
+}
+
+#wp-toolbar{
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-content: center;
+}
+
+#fjord-logo{
+	font-weight: 700;
+	font-size: 18px;
+	display: flex;
+	justify-content: start;
+	align-content: center;
+}
+
+#fjord-logo-img{
+	width: 45px;
+}
+
+#wpbody-content{
+	padding-top: 30px;
+}
+
+.wp-menu-name{
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	transition: 0.25s;
+}
+
+.wp-menu-name:hover{
+	letter-spacing: 0.2rem;
+}
+
+#wpcontent, #wpfooter{
+	margin-left: 200px;
+}
+
+#adminmenu .wp-not-current-submenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
+	min-width: 200px;
+}
+
+#adminmenu .wp-submenu{
+	left:200px;
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
+	width: 200px;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu{
+	background: #4C566A;
+
+}
+
+#adminmenu .wp-submenu{
+	background: #D8DEE9;
+}
+
+#adminmenu .wp-submenu a, #adminmenu .wp-submenu li.current{
+	color: #2E3440 !important;
+}
