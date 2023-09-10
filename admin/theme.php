@@ -1,8 +1,8 @@
 <?php 
 
 function get_fjord_css() {
-  wp_enqueue_style( 'fjordcms-admin-theme', plugins_url('css/fjord.css', __FILE__));
-  wp_enqueue_script( 'fjord', plugins_url( "js/fjord.js", __FILE__ ), array() , '1.0.0' );
+  wp_enqueue_style( 'fjordcms-admin-theme', get_template_directory_uri() . '/admin/css/fjord.css');
+  wp_enqueue_script( 'fjord', get_template_directory_uri() . "/admin/js/fjord.js", array() , '1.0.0' );
 }
 
 function set_fjord_footer() {
